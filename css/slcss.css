@@ -1,0 +1,211 @@
+@charset "utf-8";
+.wrapper {
+	background-color: rgba(255,255,255,1.00);
+	width: 100%;
+	margin: 0 auto;
+	max-width: 1000px;
+}
+#OurLatestProjectsSection {
+	text-align: center;
+
+}
+
+body {
+	margin: 0;
+}
+
+
+
+#WelcomeImg {
+	margin: 0 auto;
+	display: block;
+}
+
+
+footer {
+	color: white;
+	background-image: url(../images/pattern.gif);	
+}
+
+footer ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	clear: both;
+}
+
+#footerSection {
+	width: 25%;
+	float: left;
+}
+#footerSectionListItem {
+	
+}
+#AccredList {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-bottom: 100px;
+	list-style-type: none;
+}
+#AccredList li img {
+	float: left;
+	padding-right: 6%;
+}
+
+#TestimonialList {
+	padding: 0;
+	list-style-type: none;
+}
+#TestimonialList img {
+	float: left;
+	margin-right: 20%;
+}
+#imageContainer {
+	display: inline-block;
+}
+.TestimonialText {
+	text-align: center;
+	display: block;
+	position: absolute;
+	white-space: nowrap;
+
+}
+
+.SlideshowFrame {
+	display: block;
+}
+* {
+}
+#TestimonialSection img {
+	margin-right: 9%;
+}
+
+
+#navlinks {
+	text-decoration: none;
+	text-transform: uppercase;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+	
+	
+	
+}
+#navlinks a {
+	margin-right: 68px;
+	margin-left: 12px;
+	text-decoration: none;
+	color: #000000;
+}
+
+#navlinks li { 
+display: inline;
+}
+
+#navContainer {
+	display: inline-block;
+
+}
+main ul {
+}
+#WelcomeList {
+	list-style-type: none;
+}
+#WelcomeList li {
+	display: inline;
+	margin-right: 10%;
+}
+.darken {
+	-webkit-filter: contrast(30%);
+	filter: contrast(30%);
+}
+
+.lighten {
+-webkit-filter: contrast(100%);
+filter: contrast(100%);
+}
+
+.darken:hover {
+	-webkit-filter: contrast(100%);
+	filter: contrast(100%);
+}
+#TestimonialTextContainer {
+	position: relative;
+	width: 100%;
+	height: 190px;
+	overflow: hidden;
+}
+#TestimonialTextSlider {
+	position: relative;
+	width: 100%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	height: 100px
+%;
+	height: 100%;
+}
+
+#TestimonialText1 {
+	left: 364px;
+}
+#TestimonialText2 {
+	left: 120%;
+}
+#TestimonialText3 {
+	left: 240%;
+
+
+}
+#TestimonialText4 {
+	left: 360%;
+}
+#TestimonialText5 {
+	left: 480%;
+}
+
+
+#TestimonialSection {
+	text-align: center;
+}
+#WelcomeSection {
+	text-align: center;
+}
+
+#AccreditationsSection {
+	text-align: center;
+}
+#FloatingImages {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+
+}
+#FloatingImages img {
+	margin-right: 32px;
+}
+
+#StaticBackgroundFrame {
+	width: 100%;
+	height: 265px;
+	background-image: url(../images/skyline.jpg);
+	background-attachment: fixed;
+	position: relative;
+
+}
