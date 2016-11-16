@@ -1,45 +1,211 @@
 @charset "utf-8";
-.wrapper {
-	background-color: rgba(255,255,255,1.00);
-	width: 100%;
-	margin: 0 auto;
-	max-width: 1000px;
-}
-#OurLatestProjectsSection {
-	text-align: center;
-
-}
 
 body {
+	font-family: 'PT Sans', sans-serif;
 	margin: 0;
 }
 
+.wrapper {
+	margin: 0 auto;
+	width: 1000px;
+}
+main ul {
+}
+header {
+	padding-bottom: 15px;
 
 
+}
+.StructurelineImageContainer {
+	display: inline-block;
+}
+
+
+nav {
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	left: 87px;
+}
+.navlinks {
+	text-decoration: none;
+	text-transform: uppercase;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+.navlinks a {
+	margin-right: 68px;
+	margin-left: 12px;
+	text-decoration: none;
+	color: #000000;
+	transition: all 0.2s ease;
+}
+.navlinks li a:hover {
+	color: rgba(255,30,34,1.00);
+}
+
+.SlideShow img {
+
+}
+.navlinks li {
+	display: inline;
+}
+.SlideshowFrame {
+	display: block;
+}
+#StaticBackgroundContainer {
+	width: 100%;
+	height: 265px;
+	position: relative;
+
+}
+#StaticBackgroundBlock {
+	background-image: url(../images/new-york-wallpaper-background-1.jpg);
+	background-attachment: fixed;
+	opacity: 0.42;
+	position:absolute;
+	width:100%;
+	height:100%; 	
+}
+#FloatingImageContainer {
+	width: 1000px;
+	margin: 0 auto;
+}
+#FloatingImages {
+	position: relative;
+	padding-left: 10%;
+	padding-top: 10%;
+}
+#FloatingImages img {
+	margin-right: 32px;
+}
+#WelcomeSection {
+	text-align: center;
+	padding-top: 15px;
+}
 #WelcomeImg {
 	margin: 0 auto;
 	display: block;
+	padding-bottom: 50px;
 }
-
-
-footer {
-	color: white;
-	background-image: url(../images/pattern.gif);	
-}
-
-footer ul {
-	margin: 0px;
-	padding: 0px;
+#WelcomeList {
 	list-style-type: none;
-	clear: both;
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+#WelcomeList li {
+	display: inline;
+	margin-right: 5%;
+}
+#WelcomeList li div {
+	display: inline-block;
+	position: relative;
+	top: -32px;
+	font-weight: bold;
+}
+#OurLatestProjectsSection {
+	padding-top: 15px;
+}
+#ProjectsContainer {
+	display: table;
+	padding-bottom: 45px;
+	border-spacing: 10px;
+}
+#OurLatestProjectsSection #ProjectsContainer figure {
+	display: table-cell;
+	width: 230px;
+	height: 297px;
 }
 
-#footerSection {
-	width: 25%;
-	float: left;
+
+figure figcaption a {
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+	font-weight: bold;
 }
-#footerSectionListItem {
-	
+#TestimonialSection {
+	text-align: center;
+	padding-top: 45px;
+}
+#TestimonialSection img {
+	margin-right: 1%;
+}
+#TestimonialList img {
+	float: left;
+	margin-right: 20%;
+}
+#TestimonialList {
+	padding: 0;
+	list-style-type: none;
+}
+.TestimonialText {
+	text-align: center;
+	display: block;
+	position: absolute;
+	width: 70%;
+	margin-left: 15%;
+}
+#TestimonialTextContainer {
+	position: relative;
+	width: 100%;
+	height: 190px;
+	overflow: hidden;
+	margin-top: 5%;
+}
+#TestimonialTextSlider {
+	position: absolute;
+	height: 100%;
+	transition: all 0.7s ease-in-out;
+	width: 100%;
+}
+#TestimonialText1 {
+	left: 0%;
+}
+#TestimonialText2 {
+	left: 140%;
+}
+#TestimonialText3 {
+	left: 280%;
+}
+#TestimonialText4 {
+	left: 420%;
+}
+#TestimonialText5 {
+	left: 560%;
+}
+.SlidePosition1 {
+	left: 0%;
+}
+.SlidePosition2 {
+	left: -140%;
+}
+.SlidePosition3 {
+	left: -280%;
+}
+.SlidePosition4 {
+	left: -420%;
+}
+.SlidePosition5 {
+	left: -560%;
+}
+.darken {
+	-webkit-filter: contrast(30%);
+	filter: contrast(30%);
+}
+.darken:hover {
+	-webkit-filter: contrast(100%);
+	filter: contrast(100%);
+}
+.lighten {
+	-webkit-filter: contrast(100%);
+	filter: contrast(100%);
+}
+#AccreditationsSection {
+	text-align: center;
+	padding-bottom: 15px;
+	padding-top: 30px;
 }
 #AccredList {
 	padding-top: 0px;
@@ -48,164 +214,404 @@ footer ul {
 	padding-bottom: 100px;
 	list-style-type: none;
 }
+
+
 #AccredList li img {
 	float: left;
 	padding-right: 6%;
 }
-
-#TestimonialList {
-	padding: 0;
+footer {
+	color: white;
+	background-image: url(../images/pattern.gif);
+}
+footer a {
+	color: rgba(255,255,255,1.00);
+	text-decoration: none;
+}
+footer ul {
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
 	list-style-type: none;
+	font-size: small;
 }
-#TestimonialList img {
-	float: left;
-	margin-right: 20%;
+.footerSection ul li {
+	margin-top: 2px;
 }
-#imageContainer {
-	display: inline-block;
+
+footer h3 {
+	padding-left: 32px;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
 }
-.TestimonialText {
+
+.footerSection {
+	display: table-cell;
+	width: 1%;
+}
+#footerTable {
+	display: table;
+	margin: 0 auto;
+	width: 1000px;
+}
+#FooterDisclaimer {
+	font-size: x-small;
+	margin-top: 22px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	width: 1000px;
+}
+#ServicesPage {
+}
+.services_wrapper {
+	margin: 0 auto;
+	width: 1200px;
+
+}
+
+#Background {
+	background-image: url(../images/black-white-city.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	left: 0px;
+	right: 0px;
+	top: 0px;
+	bottom: 0px;
+	z-index: -1;
+	opacity: 0.2;
+	position: fixed;
+}
+.ServicesTable {
+	display: table;
+	width: 1200px;
+	margin-top: 170px;
+	border-spacing: 0px 100px;
+}
+.ServicesTable img {
+	padding: 10px;
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+
+}
+
+
+
+
+.ServiceTableColumn {
+	display: table-column;
+}
+.ServiceTableRow {
+	
+	display: table-row;
+}
+.ServiceTableCell {
+	display: table-cell;
+}
+.ServicesTable figure {
+	margin: 0;
+	width: 325px;
+}
+.ServicesTable figure p {
+	font-weight: bold;
+}
+.ServiceTableCell figure figcaption {
 	text-align: center;
-	display: block;
-	position: absolute;
+}
+
+
+
+
+#ServicesList {
+}
+#ServicesList ul {
+	margin-top: 80px;
+
+}
+#ServicesList ul li {
+	display: inline-block;
+	width: 275px;
+	margin-bottom: 14px;
 	white-space: nowrap;
 
 }
-
-.SlideshowFrame {
-	display: block;
-}
-* {
-}
-#TestimonialSection img {
-	margin-right: 9%;
-}
-
-
-#navlinks {
+#ServicesList a {
+	color: black;
 	text-decoration: none;
-	text-transform: uppercase;
-	list-style-type: none;
-	margin-bottom: 0px;
+}
+#OurMethods {
+	margin-top: 80px;
+	margin-bottom: 80px;
+
+
+}
+#OurMethodsTable {
+	display: table;
+	table-layout: fixed;
+	width: 1200px;
+	font-size: small;
+}
+.OurMethodsTableCell {
+	display: table-cell;
+}
+.OurMethodsTableCell figure img {
+	padding: 10px;
+	background-color: white;
+	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+
+}
+.OurMethodsTableCell figure figcaption p {
+	font-weight: bold;
+	font-size: x-large;
+}
+.OurMethodsTableCell figure figcaption {
+	text-align: center;
+}
+#OurMethodsTable .OurMethodsTableCell #OurMethodsFig1 figcaption p {
+	text-align: left;
+
+}
+#OurMethodsTable .OurMethodsTableCell #OurMethodsFig2 figcaption p {
+	text-align: right;
+
+}
+
+
+
+
+#Conclusion {
+	text-align: center;
+}
+main #Conclusion p {
+	font-size: small;
+	margin-bottom: 60px;
+}
+#ProjectsPage {
+}
+#ProjectsPage a {
+	font-weight: normal;
+	text-decoration: none;
+}
+#ProjectsPage main h1 {
+	text-align: center;
+	font-size: 4em;
+}
+#ProjectsPage main h1 p {
+	text-align: center;
+	font-size: 0.5em;
+}
+
+#ProjectsPage .ServicesTable p {
+	margin-top: 86px;
+	font-weight: normal;
+	font-size: large;
+}
+#ContactUsPage {
+}
+#FormContainer {
+	position: relative;
+	height: 400px;
+	margin-top: 94px;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#ObligationsText {
+	width: 45%;
+	position: absolute;
+	left: 0px;
+}
+#ObligationsText h1 {
+	font-size: 1em;
 	margin-top: 0px;
-	padding-left: 0px;
-	
-	
-	
 }
-#navlinks a {
-	margin-right: 68px;
-	margin-left: 12px;
-	text-decoration: none;
-	color: #000000;
+#ObligationsText h2 {
+	font-size: 1em;
+	margin-top: 5em;
+}
+#ObligationsText #ContactInfo  {
+	width: 55%;
+	line-height: 1.4em;
 }
 
-#navlinks li { 
-display: inline;
+
+
+
+#Form {
+	position: absolute;
+	width: 50%;
+	text-align: left;
+	right: 0px;
+}
+#Form form input {
+	background-color: #C4C4C4;
+	height: 2em;
+	padding: 6px;
+	width: 100%;
+
+}
+#Form form p {
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
-#navContainer {
+#Form input[type=submit] {
+	margin-top: 32px;
+	margin-bottom: 32px;
+	background-color: rgba(194,240,74,1.00);
+	text-transform: uppercase;
+	font-weight: 800;
+	padding-bottom: 30px;
+	color: rgba(207,61,64,1.00);
+	width: 50%;
+	
+}
+
+
+
+
+#Map {
+	width: 100%;
+	height: 400px;
+}
+#generic_project {
+}
+.SlideshowContainer {
+	height: 600px;
+	position: relative;
+	width: 100%;
+}
+.SlideshowContainer .SlideShow  {
+	position: absolute;
+	width: 800px;
 	display: inline-block;
-
-}
-main ul {
-}
-#WelcomeList {
-	list-style-type: none;
-}
-#WelcomeList li {
-	display: inline;
-	margin-right: 10%;
-}
-.darken {
-	-webkit-filter: contrast(30%);
-	filter: contrast(30%);
-}
-
-.lighten {
--webkit-filter: contrast(100%);
-filter: contrast(100%);
-}
-
-.darken:hover {
-	-webkit-filter: contrast(100%);
-	filter: contrast(100%);
-}
-#TestimonialTextContainer {
-	position: relative;
-	width: 100%;
-	height: 190px;
-	overflow: hidden;
-}
-#TestimonialTextSlider {
-	position: relative;
-	width: 100%;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	height: 100px
-%;
 	height: 100%;
 }
-
-#TestimonialText1 {
-	left: 364px;
-}
-#TestimonialText2 {
-	left: 120%;
-}
-#TestimonialText3 {
-	left: 240%;
-
-
-}
-#TestimonialText4 {
-	left: 360%;
-}
-#TestimonialText5 {
-	left: 480%;
-}
-
-
-#TestimonialSection {
-	text-align: center;
-}
-#WelcomeSection {
-	text-align: center;
-}
-
-#AccreditationsSection {
-	text-align: center;
-}
-#FloatingImages {
+.SlideshowContainer .AsideNavigation {
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-
-
+	width: 25%;
+	height: 100%;
+	right: 68px;
+	display: table-row;
 }
-#FloatingImages img {
-	margin-right: 32px;
+.AsideNavigation .ProjectsAsideNav a {
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+	display: table-cell;
+	vertical-align: middle;
+	font-size: small;
 }
 
-#StaticBackgroundFrame {
+.SlideshowStrip {
 	width: 100%;
-	height: 265px;
-	background-image: url(../images/skyline.jpg);
-	background-attachment: fixed;
+	height: 100px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 50px;
 	position: relative;
+	left: -60px;
+}
+.SlideshowStrip .SlideStripImage {
+	display: inline-block;
+	width: 9%;
+	height: 100%;
+}
+.AsideNavigation .ProjectsAsideNav {
+	width: 66%;
+	height: 6%;
+	margin-top: 5px;
+	margin-left: 5px;
+	border-width: 1px;
+	border-style: solid;
+	-webkit-box-shadow: 0px 0;
+	box-shadow: 0px 0;
+	text-align: center;
+	display: table;
+}
+.SlideshowImage {
+	position: absolute;
+	transition: all 0.5s ease;
+}
+.SlidehowVisible {
+}
+#ProjectsContact {
+	text-align: center;
+	font-weight: normal;
 
+}
+#BlogBody main {
+	border-radius: 50px;
+	background-color: rgba(144,99,99,0.25);
+	padding-top: 8px;
+	padding-bottom: 22px;
+}
+
+
+
+
+.BlogRow {
+	height: 200px;
+	margin-top: 60px;
+	position: relative;
+	transition: all 0.5s ease;
+	margin-left: 29px;
+}
+.BlogDate {
+	width: 25%;
+	display: inline;
+	position: relative;
+	top: -110px;
+}
+.BlogEntry {
+	width: 88%;
+	display: inline-block;
+	position: relative;
+	font-family: abel;
+	font-style: normal;
+	font-weight: 400;
+	font-size: medium;
+	text-align: center;
+}
+.FloatText {
+	position: absolute;
+	top: 13%;
+	left: 31%;
+	font-weight: 400;
+	font-family: abel;
+	font-style: normal;
+	font-size: xx-large;
+	color: rgba(0,0,0,1.00);
+}
+.FloatDate {
+	font-weight: bolder;
+	font-size: 1.5em;
+	position: absolute;
+	top: -169%;
+	left: 22%;
+	color: rgba(132,99,65,1.00);
+}
+.blog_wrapper {
+	margin: 0 auto;
+	width: 800px;
+}
+.KDP_Resting {
+	top: 0px;
+
+}
+.KDP_Starting {
+	top: 1500px;
+
+
+}
+.BlogEntry figure img {
+	padding: 10px;
+	background-color: rgba(255,246,246,1.00);
+	-webkit-box-shadow: 0px 0;
+	box-shadow: 0px 0;
 }
